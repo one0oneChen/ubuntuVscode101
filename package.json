@@ -1,20 +1,19 @@
 {
-    "name": "ubuntuvscode",
-    "displayName": "Ubuntu VSCode Theme",
-    "description": "A Ubuntu Official Color VSCode Theme",
-    "version": "0.0.6",
-    "publisher": "ThiagoLcioBittencourt",
+    "name": "ubuntuvscode101",
+    "displayName": "Ubuntu VSCode Theme for Python",
+    "description": "A Ubuntu Official Color VSCode Theme base on thiagolucio's",
+    "version": "0.0.1",
+    "publisher": "101",
     "icon": "images/logo.png",
-    "homepage": "https://thiagolucio.com.br/",
+    "homepage": "https://github.com/one0oneChen/ubuntuVscode101",
     "repository": {
-        "url": "https://github.com/thiagolucio/ubuntuVscode"
+        "url": "https://github.com/one0oneChen/ubuntuVscode101"
     },
     "keywords": [
         "theme",
         "ubuntu",
         "ubuntu-theme",
         "ubuntu official",
-        "thiagolucio",
         "vscode ubuntu",
         "vscode ubuntu theme"
     ],
@@ -31,19 +30,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Ubuntu Color VSCode Deep Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/UbuntuVSCodeDeepDark.json"
-            },
-            {
                 "label": "Ubuntu Color VSCode Soft Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/UbuntuVSCodeSoftDark.json"
-            },
-            {
-                "label": "Ubuntu Color VSCode Dark Highlight",
-                "uiTheme": "vs-dark",
-                "path": "./themes/UbuntuVSCodeDarkHightLight.json"
             }
         ]
     }

@@ -62,30 +62,35 @@
 	"tokenColors": [
 		{
 			"scope": "emphasis",
+			"范围":"重点",
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "strong",
+			"范围":"加粗",
 			"settings": {
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "header",
+			"范围":"头部",
 			"settings": {
 				"foreground": "#000080"
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": "comment", 
+			"范围":"注释",
 			"settings": {
 				"foreground": "#6d6d6d",
 				"fontStyle": "italic"
 			}
 		},
 		{
+			"范围":"语言, 字符串, 其他",
 			"scope": [
 				"constant.language",
 				"constant.character",
@@ -96,38 +101,44 @@
 			}
 		},
 		{
+			"范围":"字面量.数值python",
 			"scope": [
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#b5cea8"
+				"foreground": "#A3ECDA"
 			}
 		},
 		{
 			"scope": "constant.regexp",
+			"范围":"字面量.正则表达式?",
 			"settings": {
 				"foreground": "#646695"
 			}
 		},
 		{
 			"scope": "entity.name.tag",
+			"范围":"实体.名称.标签",
 			"settings": {
 				"foreground": "#EE8241"
 			}
 		},
 		{
 			"scope": "entity.name.tag.css",
+			"范围":"实体.名称.标签.css",
 			"settings": {
 				"foreground": "#FB8441"
 			}
 		},
 		{
 			"scope": "entity.other.attribute-name",
+			"范围":"实体.其他.属性名",
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
+			"范围":"注释",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
@@ -145,18 +156,21 @@
 		},
 		{
 			"scope": "invalid",
+			"范围":"无效的",
 			"settings": {
 				"foreground": "#f44747"
 			}
 		},
 		{
 			"scope": "markup.underline",
+			"范围":"标记.下划线",
 			"settings": {
 				"fontStyle": "underline"
 			}
 		},
 		{
 			"scope": "markup.bold",
+			"范围":"标记.粗体",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#EE8241"
@@ -164,6 +178,7 @@
 		},
 		{
 			"scope": "markup.heading",
+			"范围":"标记.头部",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#9bb46e"
@@ -171,48 +186,56 @@
 		},
 		{
 			"scope": "markup.italic",
+			"范围":"标记.斜体",
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "markup.inserted",
+			"范围":"标记.嵌入式的",
 			"settings": {
 				"foreground": "#b5cea8"
 			}
 		},
 		{
 			"scope": "markup.deleted",
+			"范围":"标记.删除的",
 			"settings": {
 				"foreground": "#BF9277"
 			}
 		},
 		{
 			"scope": "markup.changed",
+			"范围":"标记.修改的",
 			"settings": {
 				"foreground": "#eac66c"
 			}
 		},
 		{
 			"scope": "beginning.punctuation.definition.quote.markdown",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#608b4e"
 			}
 		},
 		{
 			"scope": "beginning.punctuation.definition.list.markdown",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#6796e6"
 			}
 		},
 		{
 			"scope": "markup.inline.raw",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#BF9277"
 			}
 		},
 		{
 			"scope": "meta.selector",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
@@ -220,84 +243,98 @@
 		{
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#808080"
 			}
 		},
 		{
 			"scope": "meta.preprocessor",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#eac66c"
 			}
 		},
 		{
 			"scope": "meta.preprocessor.string",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#BF9277"
 			}
 		},
 		{
 			"scope": "meta.preprocessor.numeric",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#b5cea8"
 			}
 		},
 		{
 			"scope": "meta.structure.dictionary.key.python",
+			"范围":"元.结构体.字典",
 			"settings": {
-				"foreground": "#9cdcfe"
+				"foreground": "#C463C7"
 			}
 		},
 		{
 			"scope": "meta.diff.header",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#eac66c"
 			}
 		},
 		{
 			"scope": "storage",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#eac66c"
 			}
 		},
 		{
 			"scope": "storage.type",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#9CDCFE"
 			}
 		},
 		{
 			"scope": "storage.modifier",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#eac66c"
 			}
 		},
 		{
 			"scope": "string",
+			"范围":"主题所有字符串!",
 			"settings": {
-				"foreground": "#C99677"
+				"foreground": "#AEC965"
 			}
 		},
 		{
 			"scope": "string.tag",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#C99677"
 			}
 		},
 		{
 			"scope": "string.value",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#C99677"
 			}
 		},
 		{
 			"scope": "string.regexp",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#d16969"
 			}
 		},
 		{
 			"name": "JavaScript string interpolation ${}",
+			"范围":"注释",
 			"scope": [
 				"punctuation.definition.template-expression.begin.js",
 				"punctuation.definition.template-expression.begin.ts",
@@ -309,6 +346,7 @@
 			}
 		},
 		{
+			"范围":"注释",
 			"scope": [
 				"support.type.vendored.property-name",
 				"support.type.property-name",
@@ -323,23 +361,27 @@
 		},
 		{
 			"scope": "keyword",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#EE8241"
 			}
 		},
 		{
 			"scope": "keyword.control",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#F7397D"
 			}
 		},
 		{
 			"scope": "keyword.operator",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#9CDCFE"
 			}
 		},
 		{
+			"范围":"注释",
 			"scope": [
 				"keyword.operator.sigil.rust",
 				"keyword.operator.address.go",
@@ -350,6 +392,7 @@
 			}
 		},
 		{
+			"范围":"...",
 			"scope": [
 				"keyword.operator.new",
 				"keyword.operator.expression",
@@ -365,11 +408,13 @@
 		},
 		{
 			"scope": "keyword.other.unit",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#b5cea8"
 			}
 		},
 		{
+			"范围":"注释",
 			"scope": [
 				"punctuation.section.embedded.begin.metatag.php",
 				"punctuation.section.embedded.end.metatag.php",
@@ -381,6 +426,7 @@
 		},
 		{
 			"name": "Parenthesis",
+			"范围":"注释",
 			"scope": [
 				"punctuation.separator.namespace.access.cpp",
 				"variable.parameter"
@@ -392,31 +438,35 @@
 		},
 		{
 			"name": "Function type",
+			"范围":"python类方法定义和类关键字",
 			"scope": [
 				"storage.type.function.js",
 				"storage.type.function.python",
+				"storage.type.class.python",
 				"keyword.function.go",
 				"keyword.control.def.ruby"
 			],
 			"settings": {
-				"foreground": "#9CDCFE",
-				"fontStyle": "italic"
+				"foreground": "#C177C4"
 			}
 		},
 		{
 			"scope": "support.function.git-rebase",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
 			"scope": "constant.sha.git-rebase",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#b5cea8"
 			}
 		},
 		{
 			"name": "coloring of the Java import and package identifiers",
+			"范围":"注释",
 			"scope": [
 				"storage.modifier.import.java",
 				"storage.modifier.package.java"
@@ -427,17 +477,19 @@
 		},
 		{
 			"name": "this.self",
+			"范围":"python类定义关键字",
 			"scope": [
 				"variable.language",
 				"variable.parameter.function.language.special.self.python",
 				"keyword.other.this.cs"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#CA7575"
 			}
 		},
 		{
 			"name": "Function declarations",
+			"范围":"内置通用函数",
 			"scope": [
 				"entity.name.function",
 				"entity.name.type.type-parameter.cs",
@@ -446,11 +498,13 @@
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#ABD166"
+				"foreground": "#66AFD1",
+				"fontStyle":"bold"
 			}
 		},
 		{
 			"name": "Types declaration and references",
+			"范围":"注释",
 			"scope": [
 				"meta.return-type",
 				"support.class",
@@ -482,6 +536,7 @@
 		},
 		{
 			"name": "Class definitions",
+			"范围":"类定义",
 			"scope": [
 				"entity.name.type"
 			],
@@ -491,6 +546,7 @@
 		},
 		{
 			"name": "Inherited classes",
+			"范围":"注释",
 			"scope": [
 				"entity.other.inherited-class"
 			],
@@ -501,6 +557,7 @@
 		},
 		{
 			"name": "Types declaration and references, TS grammar specific",
+			"范围":"注释",
 			"scope": [
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
@@ -514,6 +571,7 @@
 		},
 		{
 			"name": "Variable and parameter name",
+			"范围":"注释",
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
@@ -525,6 +583,7 @@
 		},
 		{
 			"name": "Object keys, TS grammar specific",
+			"范围":"注释",
 			"scope": [
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function"
@@ -535,6 +594,7 @@
 		},
 		{
 			"name": "CSS property value",
+			"范围":"...",
 			"scope": [
 				"support.constant.property-value",
 				"support.constant.font-name",
@@ -550,24 +610,28 @@
 		},
 		{
 			"scope": "token.info-token",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#6796e6"
 			}
 		},
 		{
 			"scope": "token.warn-token",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#cd9731"
 			}
 		},
 		{
 			"scope": "token.error-token",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#f44747"
 			}
 		},
 		{
 			"scope": "token.debug-token",
+			"范围":"注释",
 			"settings": {
 				"foreground": "#b267e6"
 			}
